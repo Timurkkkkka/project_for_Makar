@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться со мной</title>
+    <link rel="stylesheet" href="static/feedback_style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/about_site" class="navbar-brand">Hobbys</a>
+    
+           <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/autor">Об авторе</a></li>
+                <li><a href="/about_site">О сайте</a></li>
+                <li><a href="/feedback">Связаться со мной</a></li>
+            </ul>
+           </div>
+    
+        </div>
+    </nav>
+
+
+    <h1 class="text">На этой странице вы можете связаться со мной, написать предложения по улучшению сайта и т.д.</h1>
+
+    <div class="card_feedback">
+        <h2>Связаться со мной</h2>
+        <form>
+            <div class="form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="label_name" for="name">Ваше имя:</label>
+                        <input class="input_name" type="text" id="name" placeholder="Введите имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="label_email" for="email">Ваш email:</label>
+                        <input class="input_email" type="email" id="email" placeholder="Введите email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="label_message" for="message">Ваше сообщение:</label>
+                    <textarea class="textarea_message" name="message" id="message" cols="20" rows="6" placeholder="Введите сообщение" required></textarea>
+                </div>
+            </div>
+            <button class="btn" type="submit">Отправить</button> 
+        </form>
+    </div>
+</body>
+</html>

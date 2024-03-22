@@ -1,0 +1,102 @@
+.card_feedback{
+    background-color: rgb(67, 61, 61);
+    padding-bottom: 5px;
+    border: 2px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 5px;
+    margin-top: 100px;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background-color: white;
+    border-radius: 6px;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+
+.navbar-menu li {
+    display: inline-block;
+
+}
+
+.navbar-menu li * {
+    display: inline-block;
+    color: #000;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar-menu li *:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: cadetblue;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.text {
+    text-align: center;
+}
